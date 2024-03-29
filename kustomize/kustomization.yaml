@@ -4,3 +4,9 @@ resources:
   - hpa.yaml
   - deployment.yaml
   - service.yaml
+
+patches:
+  - target:
+      kind: Deployment
+      name: podinfo
+    path: patch.yaml
