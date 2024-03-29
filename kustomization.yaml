@@ -4,6 +4,6 @@ resources:
   - kustomize/nginx-deployment.yaml
   - kustomize/nginx-service.yaml
   - kustomize/ginx-hpa.yaml
-  - kustomize/podinfo-deployment.yaml
-  - kustomize/podinfo-hpa.yaml
-  - kustomize/podinfo-service.yaml
+  - podinfo-deployment.yaml
+  - podinfo-hpa.yaml
+  - podinfo-service.yaml
